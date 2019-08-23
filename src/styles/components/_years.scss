@@ -1,0 +1,70 @@
+.years {
+	padding: 50px 0;
+	@media screen and (max-width: $screen-md){
+		padding: 30px 0;
+	}
+	& .seal {
+		@media screen and (max-width: $screen-md){
+			float: none;
+    		margin: 0 auto 10px;
+    		display: block;
+		}
+		@media screen and (max-width: $screen-sm){
+			max-width: 100px;
+		}
+	}
+}
+.years-titles {
+	width: 100%;
+	padding-bottom: 30px;
+	@media screen and (max-width: $screen-sm){
+		padding-bottom: 10px;
+	}
+}
+.years-wrapper {
+	width: 80%;
+	margin: 0 auto;
+	@media screen and (max-width: $screen-md){
+		width: 100%;
+	}
+	@media screen and (max-width: $screen-sm){
+		width: 90%;
+	}
+}
+.years-content-wrapper {
+	padding-left: 50px;
+	@media screen and (max-width: $screen-md){
+		padding-left: 0;
+	}
+}
+.years-content-signature {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    @media screen and (max-width: $screen-sm){
+    	display: block;
+    	padding-top: 10px;
+    }
+    & .sign {
+    	max-height: 60px;
+    	margin: 20px 30px 0 0;
+    	padding-bottom: 5px;
+    	border-bottom: 2px solid $gray-light;
+    	@media screen and (max-width: $screen-sm){
+    		margin: 0 0 15px;
+    	}
+    }
+    & .sign-img { 
+    	max-height: 100px;
+    	@media screen and (max-width: $screen-sm){
+    		margin-left: 20px;
+    	}
+    }
+    & .sign-info {
+    	margin: 5px 0 0 30px;
+    	@media screen and (max-width: $screen-sm){
+    		margin: 15px 0 0;
+    	}
+    }
+}

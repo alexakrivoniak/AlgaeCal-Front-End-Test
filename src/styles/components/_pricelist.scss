@@ -64,6 +64,9 @@ $screen-xs-max: $screen-xs -1 !default;
 
 .purchase-options-new-cta{
   margin-top:80px;
+  &:last-child {
+    margin-top: 100px;
+  }
 
   .product-title{
     margin: 5px;
